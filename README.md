@@ -3,6 +3,7 @@
 ## Overview
 A machine learning project that uses classification algorithms to predict customer attrition for a bank.
 
+- [Streamlit App](https://mldschurnprediction.streamlit.app/)
 - [Kaggle Dataset](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
 
 ## Problem

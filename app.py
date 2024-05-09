@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import joblib
 
-st.title("🏃Customer Churn Prediction")
+st.title("🏃 Customer Churn Prediction")
 model = joblib.load("model.joblib")
 
 # Input fields

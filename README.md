@@ -1,6 +1,6 @@
 # :bank: Bank Churn Prediction
 
-This project uses a kaggle [dataset](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers) with customer information for a bank. The dataset includes customer's demographic, spending, and card information. There is a public streamlit [app]() that uses the trained model to classify if a customer will stay or leave with the bank.
+This project uses a kaggle [dataset](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers) with customer information for a bank. The dataset includes customer's demographic, spending, and card information. There is a public streamlit [app](https://bank-churn-predict.streamlit.app/) that uses the trained model to classify if a customer will stay or leave with the bank.
 
 ## Classifying Customers
 

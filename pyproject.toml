@@ -1,0 +1,27 @@
+[project]
+name = "bank-churn"
+version = "0.1.0"
+description = "Uses a Kaggle dataset to predict customer churn for a bank"
+authors = [
+    {name = "kazirshahria",email = "kazirshahria@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "joblib (>=1.5.1,<2.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "numpy (>=2.3.1,<3.0.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "scikit-learn (>=1.7.0,<2.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "streamlit (>=1.46.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
